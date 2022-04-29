@@ -1,6 +1,6 @@
 # Zerio Jobcenter
 
-![](https://dunb17ur4ymx4.cloudfront.net/packages/images/80b09565000742cec96134080685d04761cd2ee7.png)
+![zerio-jobcenter|690x388, 75%](https://dunb17ur4ymx4.cloudfront.net/packages/images/80b09565000742cec96134080685d04761cd2ee7.png)
 
 This is a simple job center script which is great for the price, it is literally free. Who could complain?
 

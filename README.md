@@ -14,4 +14,4 @@ Custom choices for descriptions, icons etc
 Drag and drop installation
 Ingame Preview:
 
-![](https://dunb17ur4ymx4.cloudfront.net/wysiwyg/1076866/84c25483cd0fd0a36ca9f622308d0bbc22f894a8.png)
+![image|690x388, 50%](https://dunb17ur4ymx4.cloudfront.net/wysiwyg/1076866/84c25483cd0fd0a36ca9f622308d0bbc22f894a8.png)

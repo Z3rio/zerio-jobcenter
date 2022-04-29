@@ -4,14 +4,14 @@
 
 This is a simple job center script which is great for the price, it is literally free. Who could complain?
 
-Features:
+**Features:**
+- Fully optimized
+- Custom NUI
+- Not exploitable
+- Multiple locations
+- Custom choices for descriptions, icons etc
+- Drag and drop installation
 
-Fully optimized
-Custom NUI
-Not exploitable
-Multiple locations
-Custom choices for descriptions, icons etc
-Drag and drop installation
-Ingame Preview:
+**Ingame Preview:**
 
 ![Ingame Preview|690x388, 50%](https://dunb17ur4ymx4.cloudfront.net/wysiwyg/1076866/84c25483cd0fd0a36ca9f622308d0bbc22f894a8.png)

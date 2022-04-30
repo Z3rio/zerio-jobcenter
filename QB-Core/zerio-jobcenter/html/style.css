@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+#app {
+    background: transparent!important;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 500ms;
+    display: flex;
+    width: calc((325px * 4) + (25px * 4));
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.job-container {
+    width: 325px;
+    height: 450px;
+    background: #202243;
+    box-shadow: rgb(0 0 0 / 50%) 0px 2px 1px, rgb(0 0 0 / 45%) 0px 4px 2px, rgb(0 0 0 / 40%) 0px 8px 4px, rgb(0 0 0 / 35%) 0px 16px 8px, rgb(0 0 0 / 30%) 0px 32px 16px;
+    border-radius: 8px 8px 2px 2px;
+}
+
+.job-container:not(.first) {
+    margin-left: 25px;
+}
+
+.job-header {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.job-icon {
+    color: white!important;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 25px;
+    font-size: 125px!important;
+}
+
+.job-description {
+    color: rgb(225,225,225);
+    font-size: 20px;
+    width: 85%;
+    margin-left: 7.5%;
+    font-weight: 400;
+    font-family: 'Poppins';
+    height: 135px;
+}
+
+.job-button {
+    margin-left: 162.5px;
+    transform: translateX(-50%);
+}

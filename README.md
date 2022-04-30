@@ -20,4 +20,5 @@ This is a simple job center script which is great for the price, it is literally
 **Quick bug fix 2022-04-30**
 
 The CSS and HTML has been updated to scale better etc.
+
 I would recommend you guys to update the script.

@@ -27,14 +27,16 @@ CreateThread(function()
         end
     end)
 
-    RegisterNUICallback("close", function()
+    RegisterNUICallback("close", function(data,cb)
         SetNuiFocus(false, false)
         isopen = false
         TriggerScreenblurFadeOut(250)
+        cb("ok")
     end)
 
-    RegisterNUICallback("getjob", function(data)
+    RegisterNUICallback("getjob", function(data,cb)
         TriggerServerEvent("zerio-jobcenter:server:setjob", data.jobindex, closestidx)
+        cb("ok")
     end)
 
     for i,v in pairs(Config.Locations) do

@@ -46,7 +46,7 @@ CreateThread(function()
         SetBlipScale(blip, 1.25)
         SetBlipColour(blip, 0)
         BeginTextCommandSetBlipName("STRING")
-        AddTextComponentString("Arbetsförmedlingen")
+        AddTextComponentString("Job Center")
         EndTextCommandSetBlipName(blip)
     end
 
